@@ -1,0 +1,49 @@
+
+/*cor da letra do menu*/
+#ida{
+    color:white;
+}
+
+/*configurações do navbar transparente*/
+
+ .navbar-inverse{ 
+    background:transparent;
+   text-shadow: 0.1em 0.1em #333;
+    background: rgba(36,36,36,0.5);
+    background-image:none; 
+    border-color:transparent; 
+  }
+
+#texto{
+    margin:10px;
+    text-align: justify;
+    color: black;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 20px;
+
+}
+/*cor do corpo*/
+ #idsection{
+    background-color: #aaccaa;
+ }
+
+p{
+    margin: 20px;
+  }
+
+#logo{
+    width:90px;
+    height: 40px; 
+margin:-10px;
+margin-left:15px;
+  }
+
+footer{
+    background-color: #556B2F;
+    color: white;
+    font-family:"Times New Roman";
+    font-size: 14px;
+    
+  } 

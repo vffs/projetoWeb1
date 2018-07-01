@@ -1,0 +1,25 @@
+ h3{
+    float: left;
+  }
+  #idh5{
+    margin-top: 20px;
+  }
+ 
+  
+  h4{
+    text-align: justify;
+    color: black;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+
+ img{
+      width:700px;
+      height: 400px;
+     }
+
+#sub{
+background-color: #556B2F;
+}

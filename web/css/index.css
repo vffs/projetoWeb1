@@ -1,0 +1,51 @@
+.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+       display: block;
+        height: 400px;
+        min-width: 100%;
+        width: 100%;
+        max-width: 100%;
+        line-height: 1;
+      
+  }
+  #section1{
+background-color:white;
+color:black;
+
+}
+#section2{
+background-color: #aaccaa;
+color:black;
+
+}
+
+#section3{
+background-color: black;
+color:white;
+
+}
+#ftonibus{
+margin :15px;
+}
+  #texto1{
+    text-align: justify;
+    color: black;
+    font-family:"Times New Roman";
+    margin: 30px;
+    font-weight: bold;
+    font-size: 14px;
+
+  }
+ 
+  #idh3{
+    margin: 40px;
+    font-family:"Times New Roman";
+    color: black;
+  }
+
+#logo1{
+    margin:20px;
+   float: left;
+   width: 110px;
+   height: 55px;
+  }

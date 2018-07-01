@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Recife Turismo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="css/padrao.css">
+  <link rel="stylesheet" href="css/form.css">
+  <link rel="stylesheet" href="css/subpadrao.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+</head>
+<body>
+<!-- inicio da nav bar-->
+ <nav class="navbar navbar-inverse navbar-fixed-top ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="imagens/logorecifetu.png" id="logo"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html" id="ida">Home</a></li>
+        <li><a href="dicas.html" id="ida">Dicas</a></li>
+        <li><a href="fornecedores.html" id="ida">Fornecedores</a></li>
+        <li><a href="clientes.html" id="ida">Clientes</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- fim da nav bar-->
+<section class="container-fluid " id="idsection" > 
+<div class="form">
+<form>
+
+ <h4 class="text-uppercase">Contato</h4><hr>
+                               
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="name" class="col-sm-2 col-form-label">Nome:</label>
+      <div class="col-sm-10">
+        <input type="name" class="form-control" id="inputPassword3" placeholder="Name">
+      </div>
+    </div>
+    <div class="form-group">
+    <label for="exampleSelect1">Escolha o Assunto</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>orçamento</option>
+      <option>sugestoes</option>
+      <option>reclamaçoes</option>
+      <option>elogios</option>
+      <option>outros</option>
+    </select>
+  </div>
+  <div class="form-group ">
+    <label for="exampleTextarea">Digite o texto</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" id="sub">Submit</button>
+</form>
+ 
+</section>
+
+<footer class="container-fluid text-center">
+  <p>Rua Arão Lins de Andrade, 560 - Loja 10 - Prazeres </br>Jaboatão dos Guararapes - PE </br>
+  Email: reservas@recifeturismo.com</br>(81) 3028-5630 (Fixo) - (81) 9-8636-7066 (Oi) - (81) 9-9525.6801 (Tim)
+  </p>   
+
+</footer>
+
+</body>
+</html>
