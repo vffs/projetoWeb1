@@ -1,16 +1,14 @@
-.carousel-inner > .item > img,
-	.carousel-inner > .item > a > img {
-       display: block;
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        display: block;
         height: 400px;
         min-width: 100%;
         width: 100%;
         max-width: 100%;
         line-height: 1;
-      
-  }
+    }
   #section1{
-background-color:white;
-color:black;
+background-color:#556B2F;
+color:white;
 
 }
 #section2{
@@ -20,8 +18,8 @@ color:black;
 }
 
 #section3{
-background-color: black;
-color:white;
+background-color: white;
+color:black;
 
 }
 #ftonibus{
